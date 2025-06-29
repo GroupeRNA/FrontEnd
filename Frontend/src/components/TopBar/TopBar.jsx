@@ -1,7 +1,8 @@
 // On importe les outils nécessaires
 import React from 'react'
 import { useSidebarStore } from '../../Store/useSideBarStore'
-import { AudioLines, UserRoundCog } from 'lucide-react'; // Icône d'utilisateur
+import { AudioLines, UserRoundCog } from 'lucide-react'; 
+
 
 export const TopBar = () => {
     // On vérifie si la barre latérale est ouverte
