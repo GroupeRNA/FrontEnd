@@ -1,3 +1,4 @@
+
 import { PanelLeft, FolderPlus, FilePlus } from 'lucide-react';
 import { useSidebarStore } from '../../Store/useSideBarStore';
 import { useState } from 'react';
@@ -102,13 +103,6 @@ const SideBar = () => {
         </div>
       </div>
 
-      {!isOpen && (
-        <span onClick={toggleIsOpen} className="fixed top-4 left-5 z-50 cursor-pointer">
-          <PanelLeft className="size-5 text-gray-100" />
-        </span>
-      )}
-    </div>
-  );
-};
 
 export default SideBar;
+
